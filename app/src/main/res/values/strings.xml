@@ -1,3 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Ev3 Nuevas Tecnologias</string>
+    <string name="gym_title">GYM</string>
+    <string name="gym_subtitle">Registra tu entrenamiento</string>
+    <string name="label_correo">Correo</string>
+    <string name="hint_correo">correo@ejemplo.cl</string>
+    <string name="label_contrasena">Contraseña</string>
+    <string name="hint_contrasena">••••••••</string>
+    <string name="error_credentials">Correo o contraseña incorrectos</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="link_olvide_contrasena">Olvidé mi contraseña</string>
+
+    <!-- Strings para Registro de Usuario -->
+    <string name="title_registro">REGISTRO</string>
+    <string name="subtitle_registro">Crea tu cuenta de usuario</string>
+    <string name="label_nombre">Nombre completo</string>
+    <string name="hint_nombre">Juan Pérez</string>
+    <string name="label_telefono">Teléfono</string>
+    <string name="hint_telefono">+56 9 1234 5678</string>
+    <string name="label_confirmar_contrasena">Confirmar contraseña</string>
+    <string name="btn_registrarse">Registrarse</string>
+    <string name="link_ya_tengo_cuenta">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="error_registro_invalido">Por favor completa todos los campos correctamente</string>
 </resources>

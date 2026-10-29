@@ -2,4 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Gym Institutional Colors -->
+    <color name="gym_yellow">#FFC700</color>
+    <color name="gym_yellow_pressed">#E0B000</color>
+    <color name="gym_bg_dark">#18181A</color>
+    <color name="gym_field_bg">#2A2A2E</color>
+    <color name="gym_text_white">#FFFFFF</color>
+    <color name="gym_text_gray">#8E8E93</color>
+    <color name="gym_error_red">#FF3B30</color>
 </resources>

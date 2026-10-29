@@ -1,6 +1,8 @@
 package com.ev3nuevastecnologias
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -16,5 +18,13 @@ class loginGymApp : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+    }
+    fun irRegistro (view: View){
+        val registro = Intent(this, MainActivity::class.java)
+        startActivity(registro)
+    }
+    fun irRecuperar (view: View){
+        val recuperar = Intent(this, recuperarClave::class.java)
+        startActivity(recuperar)
     }
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720823607057",
+    "project_id": "nuevastec2026-7b73b",
+    "storage_bucket": "nuevastec2026-7b73b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720823607057:android:cd09fe86445d60988276b0",
+        "android_client_info": {
+          "package_name": "com.ev3nuevastecnologias"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANBv-iZhAhRW6k_IbEv_sIEaThgQ_JZLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
