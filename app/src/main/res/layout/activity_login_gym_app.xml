@@ -12,7 +12,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="32dp">
+        android:paddingBottom="40dp">
 
         <!-- Logo Icon (Yellow Circle with Dumbbell) -->
         <ImageView
@@ -143,7 +143,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/txt_clave_login"
-            tools:visibility="invisible" />
+            tools:visibility="visible" />
 
         <!-- Botón Ingresar -->
         <androidx.appcompat.widget.AppCompatButton
@@ -175,7 +175,7 @@
             android:onClick="irRecuperar"
             android:text="@string/link_olvide_contrasena"
             android:textColor="@color/gym_yellow"
-            android:textSize="14sp"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/btn_ingresar_login" />
@@ -187,7 +187,7 @@
             android:layout_marginStart="32dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="32dp"
-            android:backgroundTint="@color/gym_yellow"
+            android:backgroundTint="#FDC500"
             android:onClick="irRegistro"
             android:text="Registrarse"
             android:textColor="@color/black"

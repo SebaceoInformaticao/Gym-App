@@ -17,8 +17,8 @@
         <!-- Logo Icon (Yellow Circle with Dumbbell) -->
         <ImageView
             android:id="@+id/imgLogoRegistro"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
             android:layout_marginTop="32dp"
             android:background="@drawable/bg_circle_yellow"
             android:contentDescription="@string/app_name"
@@ -73,7 +73,7 @@
 
         <!-- Campo Nombre Completo -->
         <EditText
-            android:id="@+id/etNombre"
+            android:id="@+id/txt_nombre_main"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_marginStart="32dp"
@@ -105,11 +105,11 @@
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/etNombre" />
+            app:layout_constraintTop_toBottomOf="@id/txt_nombre_main" />
 
         <!-- Campo Correo -->
         <EditText
-            android:id="@+id/etCorreo"
+            android:id="@+id/txt_correo_main"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_marginStart="32dp"
@@ -137,7 +137,7 @@
 
         <!-- Label Confirmar Contraseña -->
         <EditText
-            android:id="@+id/etContrasena"
+            android:id="@+id/txt_clave_main"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_marginStart="32dp"
@@ -172,7 +172,7 @@
             tools:layout_editor_absoluteY="377dp" />
 
         <EditText
-            android:id="@+id/etConfirmarContrasena"
+            android:id="@+id/txt_confClave_main"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_marginStart="32dp"
@@ -206,11 +206,11 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/etConfirmarContrasena"
+            app:layout_constraintTop_toBottomOf="@id/txt_confClave_main"
             tools:visibility="visible" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btnRegistrarse"
+            android:id="@+id/btn_registro_main"
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginStart="32dp"
@@ -235,12 +235,13 @@
             android:clickable="true"
             android:focusable="true"
             android:gravity="center"
+            android:onClick="irLogin"
             android:text="@string/link_ya_tengo_cuenta"
             android:textColor="@color/gym_yellow"
-            android:textSize="14sp"
+            android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/btnRegistrarse" />
+            app:layout_constraintTop_toBottomOf="@id/btn_registro_main" />
 
         <TextView
             android:id="@+id/lblConfirmarContrasena"
@@ -256,7 +257,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/etContrasena" />
+            app:layout_constraintTop_toBottomOf="@id/txt_clave_main" />
 
         <!-- Campo Confirmar Contraseña -->
 
