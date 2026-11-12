@@ -97,7 +97,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="4dp"
             android:layout_marginEnd="32dp"
             android:text="@string/label_correo"
             android:textColor="@color/gym_text_white"
@@ -161,6 +161,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
+            android:layout_marginTop="4dp"
             android:layout_marginEnd="32dp"
             android:text="@string/label_contrasena"
             android:textColor="@color/gym_text_white"
@@ -169,14 +170,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="377dp" />
+            app:layout_constraintTop_toBottomOf="@+id/txt_correo_main" />
 
         <EditText
             android:id="@+id/txt_confClave_main"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="6dp"
             android:layout_marginEnd="32dp"
             android:autofillHints="newPassword"
             android:background="@drawable/bg_input_field"
@@ -192,16 +193,16 @@
             app:layout_constraintTop_toBottomOf="@id/lblConfirmarContrasena" />
 
         <TextView
-            android:id="@+id/tvErrorRegistro"
+            android:id="@+id/tv_Error"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="32dp"
             android:gravity="center"
-            android:text="@string/error_registro_invalido"
+            android:text="Las contraseñas no coinciden"
             android:textColor="@color/gym_error_red"
-            android:textSize="13sp"
+            android:textSize="14sp"
             android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -214,9 +215,10 @@
             android:layout_width="0dp"
             android:layout_height="50dp"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginTop="8dp"
             android:layout_marginEnd="32dp"
             android:background="@drawable/bg_button_yellow"
+            android:onClick="crearCuenta"
             android:text="@string/btn_registrarse"
             android:textAllCaps="false"
             android:textColor="@color/black"
@@ -225,13 +227,13 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvErrorRegistro" />
+            app:layout_constraintTop_toBottomOf="@id/tv_Error" />
 
         <TextView
             android:id="@+id/tvIniciarSesion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="16dp"
             android:clickable="true"
             android:focusable="true"
             android:gravity="center"
@@ -248,7 +250,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:layout_marginEnd="32dp"
             android:text="@string/label_confirmar_contrasena"
             android:textColor="@color/gym_text_white"
